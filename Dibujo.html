@@ -2,7 +2,7 @@
 
   <header>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script src="dibujo.js"></script>
   </header>
 <html>
   <head>
@@ -10,15 +10,16 @@
     <title>Dibujando con canvas</title>
   </head>
   <body>
+    <div class="container">
    <h1>Dibujo en canvas</h1>
-   <p> Cuantas lineas quieres
-     <input type="text" id="texto_lineas"/>
+   <input type="text" id="texto_lineas" class="form-control" placeholder=" Cuantas lineas quieres">
      <input type="button" class="btn btn-info" value="a dibujar!" id="botoncito"/>
-   </p>
+
    <canvas></canvas>
    <canvas width="300" height="300" id="dibujito"></canvas>
    <p>Así queda tu dibujo</p>
-   <script src="dibujo.js"></script>
+    </div>
+ 
   </body>
 </html>
 
